@@ -1,0 +1,13 @@
+#+TITLE: Hash Cracker
+
+#+BEGIN_HTML 
+<a href="https://heroku.com/deploy?template=https://github.com/usdogu/hash-cracker-bot">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
+#+END_HTML
+
+* Setup
+    + Copy .env.sample to .env and replace XXXX with your tokens.
+    + Run ~cargo run --release~
+
+

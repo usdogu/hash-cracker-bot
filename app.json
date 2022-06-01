@@ -1,0 +1,19 @@
+{
+    "name": "Crack Telegram",
+    "description": "Crack hashes from Telegram",
+    "repository": "https://github.com/usdogu/hash-cracker-bot",
+    "success_url": "/",
+    "keywords": ["rust"],
+    "website": "https://github.com/usdogu/hash-cracker-bot",
+    "env": {
+      "BUILDPACK_URL": "https://github.com/emk/heroku-buildpack-rust.git",
+      "TELOXIDE_TOKEN": {
+        "description": "Telegram Token",
+        "required": true
+      },
+      "DISCORD_TOKEN": {
+        "description": "Discord Token",
+        "required": true
+      }
+    }
+  }
